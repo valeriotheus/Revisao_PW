@@ -68,6 +68,11 @@ iframe {
     margin-bottom: 20px;
 }
 
+footer {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
 @media (max-width: 768px) {
     #empresas-ia h1 {
         font-size: 2rem;
