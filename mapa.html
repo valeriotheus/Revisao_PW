@@ -4,15 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Introdução ao Bootstrap</title>
+    <title>Revisão</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilo1.css">
 
 </head>
 
 <body>
     <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
-        <a class="navbar-brand" href="#">Projeto final JQEURY</a>
+        <a class="navbar-brand" href="#"> Mapas </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Alterna navegação">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -20,71 +21,102 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="./index.html">Home<span class="sr-only">(Página atual)</span></a>
+              <a class="nav-link" href="./index.html">Pagina Inicial<span class="sr-only">(Página atual)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./integrantes.html">Integrantes</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="./sobre.html">Sobre</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./alerts.html">Alerts</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./aula01.html">Aula 01</a>
+              <a class="nav-link" href="./mapa.html">Mapa</a>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
-          </form>
         </div>
       </nav>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4 col-sm-12">
-                <div class="card">
-                    <div class="card-header">
-                        Destaque
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Título especial</h5>
-                        <p class="card-text">Com suporte a texto embaixo, que funciona como uma introdução a um conteúdo
-                            adicional.</p>
-                        <a href="#" class="btn btn-primary">Visitar</a>
-                    </div>
-                </div>
+      
+      <section id="empresas-ia">
+        <div class="container text-center">
+          <br>
+          <h1 class="mb-5">Exemplos de Empresas de IA Generativa</h1>
+          <div class="row g-4">
+      
+            <!-- OpenAI -->
+            <div class="col-md-4">
+              <div class="ratio ratio-4x3">
+                    <iframe 
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3154.1863658400393!2d-122.41720532358741!3d37.76222811288165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7e3aef063141%3A0xcd8d4b8ec7bc4d0c!2sOpenAI%2C%20Inc.!5e0!3m2!1spt-BR!2sbr!4v1748367562588!5m2!1spt-BR!2sbr"                      style="border:0;" 
+                      allowfullscreen="" 
+                      loading="lazy" 
+                      referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>             
+              </div>
             </div>
-            <div class="col-md-8 col-sm-12">
-                <div class="form-group">
-                    <label for="txtvalor1">Valor 1</label>
-                    <input type="number" name="txtvalor1" id="txtvalor1" step="0.5" class="form-control" value>
-                </div>
-                <div class="form-group">
-                    <label for="txtvalor2">Valor 2</label>
-                    <input type="number" name="txtvalor2" id="txtvalor2" step="0.5" class="form-control" value>
-                </div>
-                <button id="calcular" class="btn btn-primary mb-4">Calcular</button>
-                <div class="alert alert-warning" role="alert">
-                    <p id="resultado"></p>
-                </div>
-                <div class="alert alert-primary" role="alert">
-                    <p id="msg"></p>
-                </div>
-                <div class="alert alert-success" role="alert">
-                    <p id="fatorial"></p>
-                </div>
+      
+            <!-- Anthropic -->
+            <div class="col-md-4">
+              <div class="ratio ratio-4x3">
+                <iframe 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.087670123309!2d-122.4017007846783!3d37.792188879756176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858064a46baf7b%3A0x1f387a963da9cf97!2s548%20Market%20St%2C%20San%20Francisco%2C%20CA%2094104%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1716825523492!5m2!1spt-BR!2sbr" 
+                  style="border:0;" 
+                  allowfullscreen="" 
+                  loading="lazy" 
+                  referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+              </div>
             </div>
+      
+            <!-- Mistral -->
+            <div class="col-md-4">
+              <div class="ratio ratio-4x3">
+                <iframe 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.858676504474!2d2.347657376798905!3d48.861944000455655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671db68e4a5ff%3A0x74a6815c3deea53a!2s15%20Rue%20des%20Halles%2C%2075001%20Paris%2C%20Fran%C3%A7a!5e0!3m2!1spt-BR!2sbr!4v1716825575581!5m2!1spt-BR!2sbr" 
+                  style="border:0;" 
+                  allowfullscreen="" 
+                  loading="lazy" 
+                  referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+              </div>
+            </div>
+      
+          </div>
         </div>
-    </div>
+      </section>      
 
+      <div class="container py-5 text-center">
+        <div class="row row-cols-1 row-cols-md-5 g-4">
+          
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">OpenAI</h5>
+                <p class="card-text">Criadora do ChatGPT e Codex, foca em modelos de linguagem generativos.</p>
+              </div>
+            </div>
+          </div>
+           
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Anthropic</h5>
+                <p class="card-text">Startup de IA centrada em segurança e interpretabilidade. Criadora do Claude.</p>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Mistral</h5>
+                <p class="card-text">Foco em modelos abertos e eficientes para IA generativa e código.</p>
+              </div>
+            </div>
+          </div>
+      
+        </div>
+      </div>
+      
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-
-    <script src="js/calculo.js"></script>
 </body>
 
 </html>

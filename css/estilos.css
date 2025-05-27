@@ -38,20 +38,11 @@
 }
 
 /* Estilo do título e texto principal */
-h1 {
-    font-size: 2.5rem;
-    color:darkred;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
+
 
 .text-left {
     text-align: left;
     font-size:xx-large;
-	color: darkred;
-}
-
-.text-center {
-    text-align: center;
 	color: darkred;
 }
 
@@ -83,43 +74,4 @@ p {
     p {
         font-size: 1rem;
     }
-}
-
-.cards-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    padding: 20px;
-    height: 100vh;
-    box-sizing: border-box;
-}
-
-.card {
-    width: 18rem; 
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease-in-out;
-}
-
-.card:hover {
-    transform: scale(1.05);
-}
-
-.card img {
-    border-radius: 10px 10px 0 0;
-}
-
-.card-body {
-    text-align: center; 
-}
-
-.card-title {
-    font-size: 1.2rem;
-    font-weight: bold;
-}
-
-.card-text {
-    color: #555;
 }
